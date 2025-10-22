@@ -22,7 +22,7 @@ while True:
 		for y in range(size):
 			if get_ground_type() != Grounds.Soil:
 				till()
-				plant(Entities.Cactus)
+			plant(Entities.Cactus)
 			move(North)
 		move(East)
 	
