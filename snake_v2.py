@@ -34,19 +34,31 @@ def move_circle():
 		move_and_check(North)
 		x,y = get_pos_x(),get_pos_y()
 		if x == apple_x and y == apple_y:
-			apple_x ,apple_y = measure()
-			body_size += 1 
+			l = measure()
+			if l :
+				apple_x ,apple_y = l[0],l[1]
+				body_size += 1
+			else :
+				moved = False
 	move_and_check(East)
 	x,y = get_pos_x(),get_pos_y()
 	if x == apple_x and y == apple_y:
-		apple_x ,apple_y = measure()
-		body_size += 1
+		l = measure()
+		if l :
+			apple_x ,apple_y = l[0],l[1]
+			body_size += 1
+		else :
+			moved = False
 	for i in range(size -2):
 		move_and_check(South)
 		x,y = get_pos_x(),get_pos_y()
 		if x == apple_x and y == apple_y:
-			apple_x ,apple_y = measure()
-			body_size += 1
+			l = measure()
+			if l :
+				apple_x ,apple_y = l[0],l[1]
+				body_size += 1
+			else :
+				moved = False
 def move_all():
 	global apple_x 
 	global apple_y
