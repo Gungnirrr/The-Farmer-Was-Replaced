@@ -61,6 +61,9 @@
                             多次重复利用中无人机的趋同问题，可能由于冲突导致临时卡住，产量较低
 ##### 4、其他代码
     change_hat.py           解锁 时装秀 成就
+    full_auto.py            全自动化 成就代码
+    full_auto_test.py       全自动化 成就运行代码，下载 full_auto.py 与 full_auto_test.py 后
+                            直接运行 full_auto_test.py 文件等待即可
 #### 参与贡献
 
 1.  Fork 本仓库
