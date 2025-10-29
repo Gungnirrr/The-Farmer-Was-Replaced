@@ -1,3 +1,4 @@
+English | [简体中文](README.md)
 # codeFarm The-Farmer-Was-Replaced Code Guide
 
 #### Introduction

@@ -1,3 +1,4 @@
+[English](README.en.md) | 简体中文
 # codeFarm  The-Farmer-Was-Replaced 《编程农场》代码攻略
 
 #### 介绍
